@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Which of the following is not a way to install and develop F# code?"
+prompt.distractors = [
+  "Installing the Community Edition of Visual Studio 2019.",
+  "Installing the Enterprise Edition of Visual Studio 2019 via Azure for Education.",
+  "By using a VMWare virtual machine provided by QUT."
+]
+answer.answer = "Via a Blackboard plugin."

@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Which of the following is not allowed in a pure functional program?"
+prompt.distractors = [
+  "Selection via if then else expressions",
+  "Repetition by way of recursion",
+  "Computational ordering by way of function composition"
+]
+answer.answer = "State mutation by way of assignment statements"

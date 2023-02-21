@@ -1,4 +1,5 @@
-## Chapter References
+## Module References
+
 QUT lectures & slides
 
 Turing Machines | Brilliant Math & Science Wiki. (n.d.). Brilliant.org. https://brilliant.org/wiki/turing-machines/

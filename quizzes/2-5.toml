@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "How do we call an F# function named foo with two parameters 1 and 2?"
+prompt.distractors = [
+  "foo(1,2)",
+  "foo(1 2)",
+  "foo 1,2"
+]
+answer.answer = "foo 1 2"

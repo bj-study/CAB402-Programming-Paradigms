@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Which of the following best describes F#?"
+prompt.distractors = [
+  "F# is a functional programming language.",
+  "F# supports object-oriented programming.",
+  "F# supports mutable state and imperative programming."
+]
+answer.answer = "All of the above."

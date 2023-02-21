@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Which of the following statements is incorrect?"
+prompt.distractors = [
+  "F# is compiled into Microsoft's Common Intermediate Language (CIL).",
+  "CIL code is Just In Time (JIT) compiled into native code.",
+  "F# functions are translated into static methods."
+]
+answer.answer = ".Net DLLs contain native code that can be directly executed by hardware."

@@ -1,0 +1,20 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = """
+What would be the value of foo in the following example?
+
+```
+let foo =
+    let y = 1
+    let z =
+        let x = 2
+        y + x
+    y + z
+```
+"""
+prompt.distractors = [
+  "It is not legal because it violates the offside rule.",
+  "2",
+  "3",
+]
+answer.answer = "4"
