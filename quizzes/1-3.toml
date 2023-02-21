@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Which of the following statements about Lambda Calculus is not correct?"
+prompt.distractors = [
+  "One of the most significant features of lambda calculus is its simplicity.",
+  "The λ symbol is used to introduce a function definition.",
+  "Lambda functions have only one formal parameter."
+]
+answer.answer = "The name that follows the λ symbol is the name of the function."

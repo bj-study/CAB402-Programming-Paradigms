@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Which of the following statements about the Von Neumann Architecture is not correct?"
+prompt.distractors = [
+  "Today's modern hardware is still largely based on the Von Neumann Architecture.",
+  "The Von Neumann architecture naturally lends itself to an imperative style of programming.",
+  "The Von Neumann architecture is similar to a Universal Turing machine in that the program is stored in the same memory as the data."
+]
+answer.answer = "The Von Neumann architecture was used to create the world's first every computing device."

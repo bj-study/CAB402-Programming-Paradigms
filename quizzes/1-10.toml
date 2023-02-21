@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Which of the following statements related to Computability are not correct?"
+prompt.distractors = [
+  "If a problem is not computable then no possible algorithm could be invented for solving that problem.",
+  "The Halting problem is a well known problem that is not compatible.",
+  "If a problem is not computable then even a quantum computer can solve it."
+]
+answer.answer = "NP Complete problems or problems with exponential complexity are regarded as not computable."

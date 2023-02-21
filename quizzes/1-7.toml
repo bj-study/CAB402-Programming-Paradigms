@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "How do we achieve Recursion in Lambda Calculus?"
+prompt.distractors = [
+  "By translating recursion into an iterative loop based form.",
+  "By introducing named functions.",
+  "Recursion is not possible in lambda calculus because functions cannot be named."
+]
+answer.answer = "By using the Y fixed-point combinator function"

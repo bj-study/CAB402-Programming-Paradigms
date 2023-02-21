@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Which of the following statements about Turing Machines is not correct?"
+prompt.distractors = [
+  "The next action is controlled by a combination of the current input symbol and the current state.",
+  "A Turing machine is as powerful as any modern computer.",
+  "One of the most significant features of a Turing Machine is its simplicity."
+]
+answer.answer = "The input to the program is contained in the transition table."

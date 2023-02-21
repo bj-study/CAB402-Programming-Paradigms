@@ -1,0 +1,12 @@
+[book]
+authors = ["Brook Jeynes [SSW]"]
+language = "en"
+multilingual = false
+src = "src"
+title = "CAB402 Programming Paradigms"
+
+[output.html]
+mathjax-support = true
+
+# book.toml
+[preprocessor.quiz]

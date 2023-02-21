@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Which of the following statements about Lambda Calculus expressions is not correct?"
+prompt.distractors = [
+  "A free variable is one which cannot be resolved to a formal parameter based on nested function scoping.",
+  "Alpha reductions are performed to avoid name clashes.",
+  "The following lambda expression cannot be further simplified f λ x . x"
+]
+answer.answer = "A beta reduction allows a lambda function to take more than one parameter."

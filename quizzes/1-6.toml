@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "How did we represent natural numbers in Lambda Calculus?"
+prompt.distractors = [
+  "By making tally marks in the sand.",
+  "In binary using a sequence of zero's and one's",
+  "Using a different unbound or free variable name for each number."
+]
+answer.answer = "Using lambda functions where the number n is represented by applying some function f, n times to some argument x."

@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "The Church-Turing Thesis proved that?"
+prompt.distractors = [
+  "That a Turing machine is the simplest machine that can solve any computationally decidable problem.",
+  "That a Turing machine is as powerful as any modern computer.",
+  "That some problems cannot be solved by computers."
+]
+answer.answer = "The lambda calculus is just as powerful as a Turing machine."

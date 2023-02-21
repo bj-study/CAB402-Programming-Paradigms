@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Why do we care if a programming language is Turing Complete?"
+prompt.distractors = [
+  "If it is it Turing Complete then it can be used to solve any problem.",
+  "If it is Turing Complete then it will be execute efficiently.",
+  "If it is Turing Complete then it is as simple as possible."
+]
+answer.answer = "If it is not Turing Complete then it is not powerful enough to solve some decidable problems"

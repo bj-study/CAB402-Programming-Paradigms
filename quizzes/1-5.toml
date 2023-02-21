@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Which of the following statements about Lambda Calculus expressions is not correct?"
+prompt.distractors = [
+  "λ (x,y) . body",
+  "λ x . y . body",
+  "(λ p . body) x y"
+]
+answer.answer = "λ x . λ y . body"
