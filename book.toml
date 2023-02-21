@@ -9,4 +9,4 @@ title = "CAB402 Programming Paradigms"
 mathjax-support = true
 
 # book.toml
-[preprocessor.quiz]
+# [preprocessor.quiz]
