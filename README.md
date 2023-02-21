@@ -21,9 +21,14 @@ There are two ways to read this book,
     1. Install [Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html) 
     2. Install [mdbook](https://rust-lang.github.io/mdBook/guide/installation.html)
     2. Install [mdbook-quiz](https://github.com/cognitive-engineering-lab/mdbook-quiz)
-    3. Serve the book
+    3. Build the book
     ```bash
-    mdbook serve --open
+    mdbook build
+    ```
+    4. Serve the book
+    ```bash
+    cd <project>/book
+    serve
     ```
 
 Although these documents may provide a decent learning experience on their own it is highly advised that you use these in-part with the lectures notes and videos provided to you by your lecturer. This is mainly due to the fact that overtime these guides may become outdated as the units themselves get updated.
