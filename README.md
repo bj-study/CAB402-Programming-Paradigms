@@ -1,4 +1,4 @@
-# CAB4-2-Programming-Paradigms
+# CAB402-Programming-Paradigms
 Dr Wayne Kelly | Notes for CAB402 at the Queensland University of Technology
 
 ## Disclaimer
