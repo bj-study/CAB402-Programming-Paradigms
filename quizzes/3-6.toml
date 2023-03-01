@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "What is the type of `(3, 4)`?"
+prompt.distractors = [
+  "type vector = { x: int; y: int }",
+  "int list",
+  "a discriminated union"
+]
+answer.answer = "int * int"

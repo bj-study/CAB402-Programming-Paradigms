@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Why do we use the pipeline operator?"
+prompt.distractors = [
+  "To allow data to be generated and consumed lazily",
+  "In order to pass data more efficiently to a function.",
+  "In order to buffer data from one function to another."
+]
+answer.answer = "To make function composition more readable by listing the functions in the order in which they will be executed."

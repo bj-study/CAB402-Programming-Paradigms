@@ -3,7 +3,7 @@ type = "MultipleChoice"
 prompt.prompt = """
 What would be the value of foo in the following example?
 
-```
+```fsharp
 let foo =
     let y = 1
     let z =

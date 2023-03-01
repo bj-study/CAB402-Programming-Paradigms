@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "When pattern matching a list in F#, what would the pattern `head::tail` match?"
+prompt.distractors = [
+  "An empty list",
+  "A list of length 2",
+  "A list of length 0 or more"
+]
+answer.answer = "A list of length 1 or more"

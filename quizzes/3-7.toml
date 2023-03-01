@@ -1,0 +1,19 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = """
+How would the following F# code be best implemented in an object-oriented language like C#?
+
+```fsharp
+let getShapeHeight shape =    
+    match shape with    
+    | Rectangle(height = h) -> h    
+    | Circle(radius = r) -> 2. * r    
+    | Prism(height = h) -> h
+```
+"""
+prompt.distractors = [
+  "Via LINQ (Language Integrated Query)",
+  "Via dynamic type tests",
+  "Via a switch statement."
+]
+answer.answer = "Via a virtual method."

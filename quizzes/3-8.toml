@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "What is the type of the List.map function?"
+prompt.distractors = [
+  "(int -> string) -> int list -> string list",
+  "('a -> 'a) -> 'a list -> 'a list",
+  "'a -> 'b -> 'a list -> 'b list"
+]
+answer.answer = "('a -> 'b) -> 'a list -> 'b list"

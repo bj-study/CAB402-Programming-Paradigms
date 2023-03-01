@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Why are Map Reduce frameworks such as Hadoop popular for high performance and distributed computing?"
+prompt.distractors = [
+  "Because using higher order functions allow us to avoid using explicit recursion.",
+  "Because they are based on functional programming principles and functional programs execute more efficiently than imperative programs.",
+  "Because they reduce the amount of memory required to perform a search?"
+]
+answer.answer = "Because the map operation can be performed efficiently in parallel and the reduce operation helps turn big data into managable results."

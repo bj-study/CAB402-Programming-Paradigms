@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "What does F# require with respect to function parameters and types?"
+prompt.distractors = [
+  "Parameters cannot be annotated with a type because F# is a dynamically typed language.",
+  "Parameters must be annotated with a type.",
+  "Function parameter types must be generic."
+]
+answer.answer = "Parameters can be optionally annotated with a type."

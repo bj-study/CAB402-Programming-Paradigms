@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "What does the map function do?"
+prompt.distractors = [
+  "Finds those elements in a list that have some property.",
+  "Finds the first element in a list that has some property.",
+  "Combines all of the items in a list in some way."
+]
+answer.answer = "Transforms each of the items in a list in some way."
