@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Which of the following F# expressions does not update the value of a mutable variable?"
+prompt.distractors = [
+  "a := 10",
+  "a <- x + 1",
+  "a.[2] <- 3"
+]
+answer.answer = "let mutable x = 42"

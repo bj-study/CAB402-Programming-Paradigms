@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Which of the following is not a difference between an F# list and an F# array?"
+prompt.distractors = [
+  "F# Arrays can be changed after they have been created, lists cannot.",
+  "F# Lists can be pattern matched to head::tail, arrays cannot.",
+  "F# Arrays have O(1) random access, lists do not."
+]
+answer.answer = "F# Arrays implement IEnumerable, lists do not."

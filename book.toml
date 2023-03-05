@@ -8,5 +8,8 @@ title = "CAB402 Programming Paradigms"
 [output.html]
 mathjax-support = true
 
+[output.html.playground]
+editable = true
+
 # book.toml
 # [preprocessor.quiz]

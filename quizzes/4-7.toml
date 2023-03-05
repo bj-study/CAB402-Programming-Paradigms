@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "n F#, what is unit?"
+prompt.distractors = [
+  "An I/O operation.",
+  "A value.",
+  "A function."
+]
+answer.answer = "A type."

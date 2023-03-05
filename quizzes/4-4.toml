@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Why would we most likely want to create object-oriented classes in F#?"
+prompt.distractors = [
+  "In order to prevent data fields being mutated by making them private.",
+  "In order to make use of the imperative programming features of F#.",
+  "In order to create a System.Collections.Generic.IEnumerable collection."
+]
+answer.answer = "In order to interoperate with code written in other .NET languages"
