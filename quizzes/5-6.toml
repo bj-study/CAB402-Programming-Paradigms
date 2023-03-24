@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Which feature of pure functional programming can be problematic?"
+prompt.distractors = [
+  "A program is written as a set of equations where the equals symbol means mathematical equality.",
+  "All data in and out are rendered manifest and accessible.",
+  "The value of an expression depends only on its free variables."
+]
+answer.answer = "The essence of an algorithm can become buried under the plumbing required to carry data."

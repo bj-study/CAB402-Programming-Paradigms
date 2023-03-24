@@ -1,4 +1,5 @@
 ## Module References
+
 QUT lectures & slides
 
 Wikipedia Contributors. (2018, November 19). Dynamic programming language. Wikipedia; Wikimedia Foundation. https://en.wikipedia.org/wiki/Dynamic_programming_language

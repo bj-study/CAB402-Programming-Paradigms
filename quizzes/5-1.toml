@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Monads are primarily about?"
+prompt.distractors = [
+  "Allowing imperative programming when programming in a functional language.",
+  "Writing simple functions.",
+  "Creating complex functions."
+]
+answer.answer = "Composing functions while avoiding complexity."

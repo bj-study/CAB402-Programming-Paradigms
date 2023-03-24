@@ -1,0 +1,14 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = """How would we translate the following Haskell List Comprehension into F# code?
+
+```haskell
+[ 2 * pi * r | r <- list, r > 10]
+```
+"""
+prompt.distractors = [
+  "seq { let! r = list; if r > 10 then yield 2 * pi * r }",
+  "list |> List.map (fun r -> 2 * pi * r) |> List.filter (fun r -> r > 10)",
+  "do { r <- list; if r > 10 then [ 2 * pi *r ] else [ ] }"
+]
+answer.answer = "seq { for r in list do if r > 10 then yield 2 * pi * r }"

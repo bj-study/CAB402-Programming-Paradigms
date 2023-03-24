@@ -1,5 +1,5 @@
 [book]
-authors = ["Brook Jeynes [SSW]"]
+authors = ["Brook Jeynes"]
 language = "en"
 multilingual = false
 src = "src"
@@ -12,4 +12,4 @@ mathjax-support = true
 editable = true
 
 # book.toml
-# [preprocessor.quiz]
+[preprocessor.quiz]

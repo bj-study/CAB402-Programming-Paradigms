@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "How does the F# language support asynchronous programming?"
+prompt.distractors = [
+  "Via the await keyword.",
+  "Via functions that return Tasks.",
+  "Via annotating functions as async."
+]
+answer.answer = "Via async computational expressions."

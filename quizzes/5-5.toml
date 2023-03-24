@@ -1,0 +1,15 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = """In Haskell, a function that returns an IO type might include the following within a do block:
+
+```fsharp
+name <- getLine
+```
+
+What would be the F# equivalent to that code?"""
+prompt.distractors = [
+  "name <- getLine",
+  "use name = getLine",
+  "yield getLine"
+]
+answer.answer = "let! name = getLine" 

@@ -1,1 +1,3 @@
-# References
+## Module References
+
+QUT lectures & slides

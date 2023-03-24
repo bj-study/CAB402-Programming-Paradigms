@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "What is the general type of the Monadic Bind function?"
+prompt.distractors = [
+  "a -> M<a>",
+  "M<a> -> (a -> M<a>) -> M<a>",
+  "(a -> M<b>) -> (b -> M<c>) -> M<c>"
+]
+answer.answer = "M<a> -> (a -> M<b>) -> M<b>"

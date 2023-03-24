@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Which of the following is not required when defining and using a Monad in F#."
+prompt.distractors = [
+  "Defining a builder class.",
+  "Creating an instance of the builder class.",
+  "Implementing a Bind and Return method. "
+]
+answer.answer = "Defining a >>= bind function."

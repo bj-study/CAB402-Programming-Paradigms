@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Which of the following is not required for a Monoid?"
+prompt.distractors = [
+  "An associative operator.",
+  "An identify function.",
+  "A binary operator."
+]
+answer.answer = "A commutative operator."
