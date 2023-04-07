@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Java 8 Streams are similar to:"
+prompt.distractors = [
+  "PLINQ",
+  "A LINQ query provider",
+  "LINQ query expressions"
+]
+answer.answer = "LINQ method syntax"

@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "What is the purpose of a LINQ Query provider"
+prompt.distractors = [
+  "To generate a set of object-oriented class definitions based on a set of tables in an existing database.",
+  "To convert a LINQ query into an System.Linq.Expression object.",
+  "To execute a LINQ query in parallel."
+]
+answer.answer = "To retrieve data from something other than an IEnumerable collection."

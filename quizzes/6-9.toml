@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "How can we execute a LINQ query in parallel?"
+prompt.distractors = [
+  "By creating threads for each data source.",
+  "By using a forall loop.",
+  "By calling the ForAll method on the query."
+]
+answer.answer = "By calling the AsParallel method on the data source."

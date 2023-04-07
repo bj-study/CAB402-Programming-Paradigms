@@ -1,0 +1,14 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = """Which of the following is equivalent to the following LINQ query:
+
+```csharp
+from s in students where s.GPA > 6 select s.studentID
+```
+"""
+prompt.distractors = [
+  "select studentID from students where GPA > 6",
+  "students.Select(s=>s.studentID).Where(s=>s.GPA > 6)",
+  "students.filter(s=>s.GPA > 6).map(s=>s.studentID)"
+]
+answer.answer = "students.Where(s=>s.GPA > 6).Select(s=>s.studentID)"

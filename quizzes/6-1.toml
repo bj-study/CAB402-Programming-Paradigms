@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Relational Algebra is to SQL as"
+prompt.distractors = [
+  "Lambda Calculus is to Turing Machines",
+  "Imperative Programming is to Turing Machines",
+  "Imperative Programming is to C#"
+]
+answer.answer = "Lambda Calculus is to F#"

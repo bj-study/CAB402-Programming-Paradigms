@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Which of the following is not a standard data source for a LINQ query?"
+prompt.distractors = [
+  "A C# List",
+  "Another LINQ query",
+  "An SQL database"
+]
+answer.answer = "A Java Stream"

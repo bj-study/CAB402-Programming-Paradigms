@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "How do we perform a Relational Algebra Projection operation in LINQ? "
+prompt.distractors = [
+  "Via a Group By clause",
+  "Via a From clause",
+  "Via a Join clause"
+]
+answer.answer = "Via a Select clause"

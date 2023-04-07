@@ -1,0 +1,20 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = """What type of values would be output by the following C# code? 
+
+```csharp
+var query = from p in people
+            where p.age <21
+            select new { Name = p.name, Adult = p.age > 18 };
+
+foreach (var x in query) {
+    Console.WriteLine(x.Adult);
+}
+```
+"""
+prompt.distractors = [
+  "IEnumerable<Person>",
+  "Integers",
+  "Person"
+]
+answer.answer = "Boolean"

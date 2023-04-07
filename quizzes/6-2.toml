@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "The Object-Relational Impedence Mismatch describes"
+prompt.distractors = [
+  "A query language that makes it possible to access relational data from an object-oriented context.",
+  "A virtual object database.",
+  "A framework for automatically mapping relational data to object-oriented data."
+]
+answer.answer = "The challenge in trying to automatically map relational data to object-oriented data."
