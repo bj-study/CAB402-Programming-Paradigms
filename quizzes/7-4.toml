@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Primitive Operators such as Never, Empty, Return and Throw return what kind of Object?"
+prompt.distractors = [
+  "An Exception.",
+  "An IEnumerable.",
+  "What ever the type parameter is."
+]
+answer.answer = "An IObservable."

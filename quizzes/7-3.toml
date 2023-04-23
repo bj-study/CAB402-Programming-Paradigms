@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "The IObservable interface is used when we want to return:"
+prompt.distractors = [
+  "Multiple values synchronously.",
+  "A single value asynchronously.",
+  "A single value synchronously."
+]
+answer.answer = "Multiple values asynchronously."

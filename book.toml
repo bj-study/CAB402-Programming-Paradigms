@@ -12,4 +12,4 @@ mathjax-support = true
 editable = true
 
 # book.toml
-[preprocessor.quiz]
+# [preprocessor.quiz]

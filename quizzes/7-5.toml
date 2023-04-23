@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "What does the Observable.Take method do?"
+prompt.distractors = [
+  "It filters only those items that satisfy a particular predicate.",
+  "It maps each item in the stream to a new projected value.",
+  "It provides resilience by catching any exceptions that might be thrown by the stream."
+]
+answer.answer = "It returns just the first n items from the stream."

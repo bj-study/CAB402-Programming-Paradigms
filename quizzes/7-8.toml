@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "How does a react program cause the user interface to be updated?"
+prompt.distractors = [
+  "By updating the Virtual DOM.",
+  "By modifying the Document Object Model (DOM).",
+  "By implementing the render method which builds a virtual DOM."
+]
+answer.answer = "By explicitly changing the state of a component that causes it to be rerendered."

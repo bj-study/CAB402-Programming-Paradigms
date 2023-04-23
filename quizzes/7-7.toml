@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Which of the following statements regarding ReactJS and Functional Programming are not correct?"
+prompt.distractors = [
+  "The properties of a React component are immutable.",
+  "A react programmer never directly modifies the DOM in response to events",
+  "The render method of all React components should be a pure function."
+]
+answer.answer = "ReactJS enforces a pure functional style of programming by not allowing Components to have mutable state."

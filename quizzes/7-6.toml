@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "What does the ReactiveUI.NET framework support:"
+prompt.distractors = [
+  "ReactiveUI provides support for functional reactive programming in F#.",
+  "It allows .NET GUI applications to execute across platforms (Windows, IOS, Android and Linux).",
+  "A Model-View Controller pattern for creating GUI applications in .NET."
+]
+answer.answer = "Allows graphical user interfaces to be developed in a Reactive programming style."

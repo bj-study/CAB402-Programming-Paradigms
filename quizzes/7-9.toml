@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Which of the following examples illustrates the correct way for updating the state of a component?"
+prompt.distractors = [
+  "this.state.count = 42;",
+  "this.props.count = 42;",
+  "store.getState().count = 42;"
+]
+answer.answer = "this.setState({count: 42});"

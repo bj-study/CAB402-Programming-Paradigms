@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "A push based collection is one where:"
+prompt.distractors = [
+  "The consumer decides when to retrieve values from the collection.",
+  "The collection implements the IEnumerable interface.",
+  "The collection implements the LINQ standard query operators."
+]
+answer.answer = "The producer decides when to send values to the consumer."

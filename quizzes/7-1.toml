@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Which of the following best describes Reactive Programming"
+prompt.distractors = [
+  "Creating a spreadsheet based on formulas so that cells get automatically recalculated when inputs change.",
+  "Creating a system that remains responsive by elastically providing more resources as the workload increases.",
+  "Programming in a pure functional manner without any mutable state."
+]
+answer.answer = "Declaratively describing how things should get automatically updated when certain other things change."
