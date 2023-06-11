@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "In C, how would I declare a variable foo to store functions that take a char parameter and returns a float?"
+prompt.distractors = [
+  "float foo(char);",
+  "foo: char -> float",
+  "delegate float foo(char c);"
+]
+answer.answer = "float (*foo)(char);"

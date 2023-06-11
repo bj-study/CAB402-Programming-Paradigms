@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "When we say that a Dynamic Languages achieves better \"flow\", what do we mean?"
+prompt.distractors = [
+  "That if it quacks like a duck, then it's a duck!",
+  "That it is better suited to the data-flow programming paradigm.",
+  "That there are no types to prevent values of different types flowing from one variable to another."
+]
+answer.answer = "That a programmer can become so engrossed that they lose track of time."

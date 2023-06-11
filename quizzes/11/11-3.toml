@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "What is the primary advantage of JIT Compilation?"
+prompt.distractors = [
+  "The code will run faster than statically compiled code.",
+  "It avoids the edit, compile, execute loop.",
+  "Considerable time can be taken to generate the best possible optimized code."
+]
+answer.answer = "The Virtual Machine can control what happens at runtime."

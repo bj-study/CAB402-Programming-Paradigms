@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "In Java 8, how does code in the wrapper class access captured variables."
+prompt.distractors = [
+  "The variable must be declared as final to prevent it from changing.",
+  "Via parameters passed when the function is invoked.",
+  "Via references to the original captured variables."
+]
+answer.answer = "Via private fields of the wrapper class."

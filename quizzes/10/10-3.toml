@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "What is the lexical scope of a function"
+prompt.distractors = [
+  "The variables that it captures.",
+  "The context in which the function is eventually called.",
+  "An variables that have gone out of scope since the function was declared."
+]
+answer.answer = "The outer function or context within which the function is declared."

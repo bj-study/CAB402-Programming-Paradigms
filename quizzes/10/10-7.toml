@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Why were Closures implemented via the Java Virtual Machine rather than by the Compiler?"
+prompt.distractors = [
+  "The compiler doesn't have access to the values of variables that are captured at runtime.",
+  "To make the Java compiler simpler and more efficient.",
+  "The Java compiler is unable to automatically generate wrapper classes."
+]
+answer.answer = "To future proof the system against sub-optimal design decisions."

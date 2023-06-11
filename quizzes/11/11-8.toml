@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Which of the following is a core philosophy of Ruby on Rails?"
+prompt.distractors = [
+  "Keep It Simple Stupid.",
+  "If it quacks like a duck, then it's a duck.",
+  "Prevent errors type using a strong type system."
+]
+answer.answer = "Convention over configuration."

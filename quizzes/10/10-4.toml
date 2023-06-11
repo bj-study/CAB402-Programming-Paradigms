@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "What happens when a function captures a variable that goes out of scope before the function is invoked"
+prompt.distractors = [
+  "A new copy of that variable would be created in the calling context.",
+  "The variable must be declared as final to prevent it from changing.",
+  "An error would occur because the variable doesn't exist anymore."
+]
+answer.answer = "A copy or reference to that variable must be stored in the closure."

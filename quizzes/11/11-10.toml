@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Which Language Design Principle tells us that each concept should be able to be understood separately?"
+prompt.distractors = [
+  "Uniformity",
+  "Restrictability",
+  "Preciseness"
+]
+answer.answer = "Orthogonality"

@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "How is the lack of static type checks compensated for when using Dynamic Languages?"
+prompt.distractors = [
+  "By having the virtual machine perform the checks.",
+  "By performing dynamic type tests instead.",
+  "By removing boiler plate code and using convention over configuration."
+]
+answer.answer = "By using test driven development."

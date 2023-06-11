@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "What is a functional interface in Java"
+prompt.distractors = [
+  "A lambda function",
+  "An interface with a method named invoke.",
+  "A function that can be called via dynamicinvoke."
+]
+answer.answer = "An interface with only one method."

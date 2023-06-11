@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "What does C# source code get compiled into?"
+prompt.distractors = [
+  "Machine Code",
+  "Assembly Code",
+  "Java Byte Code"
+]
+answer.answer = "Intermediate Code"

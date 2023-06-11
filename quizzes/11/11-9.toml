@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "In JavaScript, how is the prototype chain of an object established?"
+prompt.distractors = [
+  "By setting the prototype property of the object after it has been constructed.",
+  "By changing the definition of functions at runtime.",
+  "By using the this keyword within a function."
+]
+answer.answer = "Via the prototype property of the function that is used to construct the object."

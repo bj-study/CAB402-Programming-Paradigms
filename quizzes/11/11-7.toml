@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "What is a code block in Ruby?"
+prompt.distractors = [
+  "A web development framework for Ruby.",
+  "An object-relational mapping framework for Ruby.",
+  "A mechanism for adding methods to an existing system defined type."
+]
+answer.answer = "A mechanism for implicitly passing code to any method."

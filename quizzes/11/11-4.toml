@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "What best describes a dynamic language?"
+prompt.distractors = [
+  "A language with a weak type system.",
+  "A language which does not have the concept of types.",
+  "A language which is interpreted or Just-in-Time compiled."
+]
+answer.answer = "A language that has fewer restrictions regarding what can change at runtime."

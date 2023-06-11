@@ -1,0 +1,9 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "What was the invokedynamic instruction originally intended to support?"
+prompt.distractors = [
+  "Implementing closures via the JVM.",
+  "For adding lambda functions to Java.",
+  "For adding functional interfaces to Java."
+]
+answer.answer = "Method resolution for dynamic languages."
