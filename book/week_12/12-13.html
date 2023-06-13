@@ -145,6 +145,15 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="selecting-machine-code-instructions"><a class="header" href="#selecting-machine-code-instructions">Selecting Machine Code Instructions</a></h1>
+<h2 id="instruction-selection"><a class="header" href="#instruction-selection">Instruction Selection</a></h2>
+<p>For each high level operation, the compiler must decide which machine code
+instruction(s) to translate each statement to. There's often more than one choice
+and the best choice may depend on the context.</p>
+<h2 id="tree-matching"><a class="header" href="#tree-matching">Tree Matching</a></h2>
+<p>Instead of replacing individual nodes in the AST with specific instructions, we
+instead define a bunch of patterns that match subtrees of the AST and generate a
+sequence of related instructions.</p>
+<p>{{#quiz ../../quizzes/12/12-13.toml}}</p>
 
                     </main>
 

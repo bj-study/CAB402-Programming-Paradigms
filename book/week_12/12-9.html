@@ -145,6 +145,49 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="the-code-generation-phase"><a class="header" href="#the-code-generation-phase">The Code Generation Phase</a></h1>
+<h2 id="immediate-code"><a class="header" href="#immediate-code">Immediate Code</a></h2>
+<p>Many compilers first translate to an intermediate code and then from intermediate
+code to machine code. Intermediate code is geneally low level but machine independent.</p>
+<p>Intermediate code is generally language independent. Different &quot;front-end&quot; compilers
+can share the same code generation infrastructure.</p>
+<h2 id="common-instruction-sets"><a class="header" href="#common-instruction-sets">Common Instruction Sets</a></h2>
+<ul>
+<li>x86 (most PCs and servers)</li>
+<li>ARM (Mobile phones, tablets and embedded, low power)</li>
+</ul>
+<h2 id="instruction-sets"><a class="header" href="#instruction-sets">Instruction Sets</a></h2>
+<ul>
+<li>RISC: Reduced Instruction Set computer (ARM)</li>
+<li>CISC: Complex Instruction Set computer (Intel)</li>
+<li>VLIW: Very Long Instruction Word (instruction parallel RISC)</li>
+</ul>
+<h2 id="instructions"><a class="header" href="#instructions">Instructions</a></h2>
+<ul>
+<li>Arithmetic/Logic
+<ul>
+<li>add, subtract, multiply, divide</li>
+<li>and, or, shift, compare</li>
+<li>Typically inputs and outputs are registers</li>
+</ul>
+</li>
+<li>Memory Load/Store
+<ul>
+<li>Load contents of a memory location into a register</li>
+<li>Store contents of a register into a memory location</li>
+<li>Memory address typically comes from a register</li>
+<li>Various address modes</li>
+</ul>
+</li>
+<li>Control Flow
+<ul>
+<li>Conditional and unconditional jump and function call/return</li>
+<li>Conditional typically based on a register</li>
+<li>Jump to a new memory address</li>
+<li>Changes the Program Counter (PC) register</li>
+</ul>
+</li>
+</ul>
+<p>{{#quiz ../../quizzes/12/12-9.toml}}</p>
 
                     </main>
 

@@ -178,9 +178,9 @@ let rec Height tree =
     | Leaf(_) -&gt; 1
     | Parent(value=v; left=l; right=r) -&gt; (max (Height l) (Height r)) + 1
 </code></pre>
-<div class="quiz-placeholder" data-quiz-name="3-7"  data-quiz-questions="{&quot;questions&quot;:[{&quot;type&quot;:&quot;MultipleChoice&quot;,&quot;answer&quot;:{&quot;answer&quot;:&quot;Via a virtual method.&quot;},&quot;prompt&quot;:{&quot;distractors&quot;:[&quot;Via LINQ (Language Integrated Query)&quot;,&quot;Via dynamic type tests&quot;,&quot;Via a switch statement.&quot;],&quot;prompt&quot;:&quot;How would the following F# code be best implemented in an object-oriented language like C#?\n\n```fsharp\nlet getShapeHeight shape =    \n    match shape with    \n    | Rectangle(height = h) -&gt; h    \n    | Circle(radius = r) -&gt; 2. * r    \n    | Prism(height = h) -&gt; h\n```\n&quot;}}]}" ></div>
+<p>{{#quiz ../../quizzes/3-7.toml}}</p>
 <p><sup class="footnote-reference"><a href="#footnote_union">1</a></sup> <a href="https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/discriminated-unions">F# Documentation - Discriminated Unions</a></p>
-<script type="text/javascript" src="../quiz/lib.js"></script><link rel="stylesheet" type="text/css" href="../quiz/lib.css">
+
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">

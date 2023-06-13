@@ -190,8 +190,8 @@ seq { for x in [2, 5, 10] do
             if x * y &gt; 50 then
                 yield x * y }
 </code></pre>
-<div class="quiz-placeholder" data-quiz-name="5-8"  data-quiz-questions="{&quot;questions&quot;:[{&quot;type&quot;:&quot;MultipleChoice&quot;,&quot;answer&quot;:{&quot;answer&quot;:&quot;seq { for r in list do if r &gt; 10 then yield 2 * pi * r }&quot;},&quot;prompt&quot;:{&quot;distractors&quot;:[&quot;seq { let! r = list; if r &gt; 10 then yield 2 * pi * r }&quot;,&quot;list |&gt; List.map (fun r -&gt; 2 * pi * r) |&gt; List.filter (fun r -&gt; r &gt; 10)&quot;,&quot;do { r &lt;- list; if r &gt; 10 then [ 2 * pi *r ] else [ ] }&quot;],&quot;prompt&quot;:&quot;How would we translate the following Haskell List Comprehension into F# code?\n\n```haskell\n[ 2 * pi * r | r &lt;- list, r &gt; 10]\n```\n&quot;}}]}" ></div>
-<script type="text/javascript" src="../quiz/lib.js"></script><link rel="stylesheet" type="text/css" href="../quiz/lib.css">
+<p>{{#quiz ../../quizzes/5-8.toml}}</p>
+
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">

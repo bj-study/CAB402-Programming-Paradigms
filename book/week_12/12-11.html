@@ -145,6 +145,30 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="addressing-modes"><a class="header" href="#addressing-modes">Addressing Modes</a></h1>
+<h2 id="addressing-modes-1"><a class="header" href="#addressing-modes-1">Addressing Modes</a></h2>
+<p>An addressign mode describes what kind of operands an instruction can take.
+Different processors support different addressing modes.</p>
+<p>Common Addressing modes:</p>
+<ul>
+<li>
+<p>Immediate: operand = a specific address</p>
+</li>
+<li>
+<p>Register: operand = register[r]</p>
+</li>
+<li>
+<p>Indiect: operand = memory[register[base] + register[offset] * constant_size + constant_offset]</p>
+</li>
+<li>
+<p>x64 examples</p>
+<ul>
+<li><code>ADD EAX, 14  ; add 14 into 32-bit EAX</code></li>
+<li><code>ADD R8L, AL  ; add 8bit AL into R8L</code></li>
+<li><code>MOV R8W, 1234[8 * RAX + RCX]  ; move word at address 8 * RAX + RCX + 1234 into R8W</code></li>
+</ul>
+</li>
+</ul>
+<p>{{#quiz ../../quizzes/12/12-11.toml}}</p>
 
                     </main>
 

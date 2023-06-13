@@ -145,6 +145,42 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="code-genration-templates-for-control-flow"><a class="header" href="#code-genration-templates-for-control-flow">Code Genration Templates for Control Flow</a></h1>
+<pre><code>---- High Level Code ----
+
+if (a &lt; 7 || b == 3)
+    S1
+else
+    S2;
+
+S3;
+
+---- Machine Code ----
+
+    if (a &lt; 7)  jmp L1
+    if (b == 3) jmp L1
+    S2
+    jmp L2
+L1: S1
+L2: S3
+</code></pre>
+<pre><code>---- High Level Code ----
+
+S1
+for (i - 0; i &lt; 10; i++)
+    S2;
+S3;
+
+---- Machine Code ----
+
+    S1
+    i - 0
+    jmp L2
+L1: S2
+    i++
+L2: if (i &lt; 10) jmp L1
+    S3
+</code></pre>
+<p>{{#quiz ../../quizzes/12/12-14.toml}}</p>
 
                     </main>
 

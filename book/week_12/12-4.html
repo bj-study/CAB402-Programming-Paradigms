@@ -145,6 +145,20 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="the-parsing-phase"><a class="header" href="#the-parsing-phase">The Parsing Phase</a></h1>
+<pre><code>stmt -&gt; if lparen expr rparen stmt
+     -&gt; exp semicolon
+     -&gt; ...
+expr -&gt; integerLiteral
+     -&gt; stringLiteral
+     -&gt; identifier
+     -&gt; identifier lparen args rparen
+     -&gt; expr leq exp
+     -&gt; ...
+args -&gt; expr
+     -&gt; args comma expr
+...
+</code></pre>
+<p>{{#quiz ../../quizzes/12/12-4.toml}}</p>
 
                     </main>
 

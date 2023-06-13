@@ -145,6 +145,29 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="the-scanning-phase"><a class="header" href="#the-scanning-phase">The Scanning Phase</a></h1>
+<h2 id="scanner-lexical-analysis"><a class="header" href="#scanner-lexical-analysis">Scanner (Lexical Analysis)</a></h2>
+<p>The scanner:</p>
+<ul>
+<li>Eliminates whitespace [spaces, tabs, new lines, carriage return]</li>
+<li>Eliminates comments</li>
+<li>Groups characters:
+<ul>
+<li>&quot;&lt;=&quot; -&gt; Less than or equals operator</li>
+<li>&quot;if&quot; -&gt; if keyword</li>
+<li>42 -&gt; integer literal</li>
+<li>etc..</li>
+</ul>
+</li>
+</ul>
+<h2 id="regular-expressions"><a class="header" href="#regular-expressions">Regular Expressions</a></h2>
+<ul>
+<li>\(\epsilon\) - empty string</li>
+<li>\(c\) - literal character</li>
+<li>\(r_1 | r_2\) - \(r_1\) or \(r_2\)</li>
+<li>\(r_1 r_2\) - \(r_1\) followed by \(r_2\)</li>
+<li>\(r^*\) - zero orr morre occurrences of \(r\)</li>
+</ul>
+<p>{{#quiz ../../quizzes/12/12-2.toml}}</p>
 
                     </main>
 

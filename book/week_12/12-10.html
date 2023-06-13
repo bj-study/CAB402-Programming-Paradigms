@@ -145,6 +145,40 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="32-vs-64-bit-hardware"><a class="header" href="#32-vs-64-bit-hardware">32 vs 64 bit Hardware</a></h1>
+<h2 id="32bit-vs-64bit"><a class="header" href="#32bit-vs-64bit">32bit vs 64bit</a></h2>
+<p>The bits refers to the size of the registers. Having bigger registers means
+arithmetic operations can wokr on larger numbers and your logical operations
+can work on more bits in parallel. Bigger registers also allow you to point
+to a larger range of memory addresses and therefor use larger physical memory.</p>
+<p>32bit x86 code will execute on an x86-64 processor. 64bit x86 code will not 
+execute on an 32 processor.</p>
+<h2 id="compiling-example"><a class="header" href="#compiling-example">Compiling Example</a></h2>
+<ul>
+<li>
+<p>High level code</p>
+<pre><code>int i = (x + y) * (x + y) - z;
+</code></pre>
+</li>
+<li>
+<p>x86 un-optimized</p>
+<pre><code>mov    eax, dword ptr [x]
+add    eax, dword ptr [y]
+mov    ecx, dword ptr [x]
+add    ecx, dword ptr [y]
+imul   eax, ecx
+sub    eax, dword ptr [z]
+mov    dword ptr [i], eax
+</code></pre>
+</li>
+<li>
+<p>x86 optimized</p>
+<pre><code>add    esi, eax  ; esi = esi + eax
+imul   esi, esi  ; esi = esi * esi
+sub    esi, eax  ; esi = esi - eax
+</code></pre>
+</li>
+</ul>
+<p>{{#quiz ../../quizzes/12/12-10.toml}}</p>
 
                     </main>
 

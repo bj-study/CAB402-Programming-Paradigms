@@ -145,6 +145,22 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="bottom-up-parsing"><a class="header" href="#bottom-up-parsing">Bottom-Up Parsing</a></h1>
+<h2 id="shiftreduce-parsing"><a class="header" href="#shiftreduce-parsing">Shift/Reduce Parsing</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Token</th><th>Stack</th></tr></thead><tbody>
+<tr><td>Shift ifkeyword</td><td>ifkeyword</td></tr>
+<tr><td>Shift lparen</td><td>ifkeyword lparen</td></tr>
+<tr><td>Shift identifier</td><td>ifkeyword lparen identifier</td></tr>
+<tr><td>Reduce identifier -&gt; expr</td><td>ifkeyword lparen expr</td></tr>
+<tr><td>Shift leq</td><td>ifkeyword lparen expr leq</td></tr>
+<tr><td>Shift integerLiteral</td><td>ifkeyword lparen expr leq integerLiteral</td></tr>
+<tr><td>Reduce integerLiteral -&gt; expr</td><td>ifkeyword lparen expr leq expr</td></tr>
+<tr><td>Reduce expr leq expr -&gt; expr</td><td>ifkeyword lparen expr</td></tr>
+<tr><td>etc ...</td><td></td></tr>
+</tbody></table>
+</div>
+<h2 id="parser-generator-eg-yacc"><a class="header" href="#parser-generator-eg-yacc">Parser Generator (e.g. YACC)</a></h2>
+<p>LanguageSpec.y -&gt; YACC (Parser Generator) -&gt; Generated Parser (LanguageScanner.c)</p>
+<p>{{#quiz ../../quizzes/12/12-6.toml}}</p>
 
                     </main>
 

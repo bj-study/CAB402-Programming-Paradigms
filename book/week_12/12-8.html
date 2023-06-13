@@ -145,6 +145,29 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="the-semantic-analysis-phase"><a class="header" href="#the-semantic-analysis-phase">The Semantic Analysis Phase</a></h1>
+<h2 id="semantic-analysis"><a class="header" href="#semantic-analysis">Semantic Analysis</a></h2>
+<p>The semantic analysis does:</p>
+<ol>
+<li>Name resolution</li>
+<li>Type checking</li>
+<li>Data flow analysis</li>
+</ol>
+<h2 id="name-resolution"><a class="header" href="#name-resolution">Name Resolution</a></h2>
+<p>For each name (identifier), the semantic analyser will:</p>
+<ol>
+<li>Map each identifier to it's corresponding declaration (local variable, parameter, class or type, package declaration)</li>
+<li>Nested lexical scopes</li>
+<li>Declaration may come after use</li>
+</ol>
+<p>For compound names, for example <code>Console.WriteLine</code>, the semantic analyser will:</p>
+<ol>
+<li>Resolve <code>Console</code> within the current scope</li>
+<li>Then resolve <code>WriteLine</code> within the located scope</li>
+</ol>
+<h2 id="type-checking"><a class="header" href="#type-checking">Type Checking</a></h2>
+<p>The semantic analyser will type check by performing a bottum up traversal of the 
+AST. Types of children are checked/evaluated prior to parents.</p>
+<p>{{#quiz ../../quizzes/12/12-8.toml}}</p>
 
                     </main>
 

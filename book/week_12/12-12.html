@@ -145,6 +145,18 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="allocating-registers"><a class="header" href="#allocating-registers">Allocating Registers</a></h1>
+<h2 id="register-allocation"><a class="header" href="#register-allocation">Register Allocation</a></h2>
+<p>Only a small finite number of registers are available, this means register allocation
+is an important task. The compiler needs to decide which registers will store each
+value.</p>
+<p>The goal is to minimise unnecessary loading and storing to memory as these operations
+are costly. If the lifetime of two values don't overlap then they can both be stored in the
+same register. Graph colouring is an algorithm used to find an optimal solution
+to this problem.</p>
+<p>The graph colouring algorith is an NP-Complete problem. Compilers use tricks to
+instead of calculating the best colouring, calculate a good enough colouring for
+the task at hand.</p>
+<p>{{#quiz ../../quizzes/12/12-12.toml}}</p>
 
                     </main>
 

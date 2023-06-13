@@ -145,6 +145,32 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="top-down-parsing"><a class="header" href="#top-down-parsing">Top-Down Parsing</a></h1>
+<h2 id="ll-and-lr-parsers"><a class="header" href="#ll-and-lr-parsers">LL and LR Parsers</a></h2>
+<ul>
+<li>LL
+<ul>
+<li>Left to right traversal of input</li>
+<li>Leftmost derivation</li>
+<li>Top down parser
+<ul>
+<li>Predictive/Recursive descent
+ANTLR generates top-down LL parsers</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>LR
+<ul>
+<li>Left to right traversal of input</li>
+<li>Rightmost derivation (reverse/bottom up)</li>
+<li>Bottom up parser</li>
+<li>More powerful than LL parsers</li>
+<li>Look-ahead: LR(0), LALR(1), LR(1)</li>
+<li>YACC generates bottom-up LALR parsers</li>
+</ul>
+</li>
+</ul>
+<p>{{#quiz ../../quizzes/12/12-5.toml}}</p>
 
                     </main>
 
