@@ -179,8 +179,8 @@ var query2 = from cust in Customer
             join dist in distributors on cust.City equals dist.City
             select new { Name = cust.Name, Distributor = dist.Name };
 </code></pre>
-<p>{{#quiz ../../quizzes/6-5.toml}}</p>
-
+<div class="quiz-placeholder" data-quiz-name="6-5"  data-quiz-questions="{&quot;questions&quot;:[{&quot;type&quot;:&quot;MultipleChoice&quot;,&quot;answer&quot;:{&quot;answer&quot;:&quot;Via a Select clause&quot;},&quot;prompt&quot;:{&quot;distractors&quot;:[&quot;Via a Group By clause&quot;,&quot;Via a From clause&quot;,&quot;Via a Join clause&quot;],&quot;prompt&quot;:&quot;How do we perform a Relational Algebra Projection operation in LINQ? &quot;}}]}" ></div>
+<script type="text/javascript" src="../quiz/lib.js"></script><link rel="stylesheet" type="text/css" href="../quiz/lib.css">
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
